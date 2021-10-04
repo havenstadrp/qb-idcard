@@ -1,2 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-body,html{width:100%;height:100%;font-family:Roboto,sans-serif}p{padding:0;margin:0;text-transform:uppercase;font-size:14px}#name{text-align:center;margin-top:14px}#card{position:relative;display:none;margin:230px 50px 0 0;float:right;width:457px;height:272px;padding:54px 17px 10px 144px;background:url(../images/idcard.png)}img{position:absolute;left:7px;top:5px}#name{font-weight:bolder;font-size:18px}#inline{position:absolute;top:127px}#dob{position:absolute;left:43px;width:100px}#sex{position:absolute;left:137px}#type{position:absolute;left:137px}#nationality{position:absolute;left:223px;width:60px}#fingerprint{position:absolute;left:124px;top:64px;font-size:12px;opacity:.5}.hidden{display:none}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: Roboto, sans-serif;
+}
+p {
+  padding: 0;
+  margin: 0;
+  text-transform:capitalize;
+  font-size: 14px;
+}
+#name {
+  text-align: left;
+  margin-top: 14px;
+}
+#card {
+  position: relative;
+  display: none;
+  margin: 140px 50px 0 0;
+  float: right;
+  width: 457px;
+  height: 272px;
+  padding: 35px 16px 10px 131px;
+  background: url(../images/idcard.png);
+}
+img {
+  position: absolute;
+  left: 7px;
+  top: 5px;
+}
+#name {
+  font-weight: bolder;
+  font-size: 18px;
+}
+#inline {
+  position: absolute;
+  top: 90px;
+}
+#dob {
+  position: absolute;
+  left: 0px;
+  width: 100px;
+}
+#sex {
+  position: absolute;
+  left: 248px;
+}
+#type {
+  position: absolute;
+  left: 137px;
+}
+#nationality {
+  position: absolute;
+  left: 2px;
+  width: 60px;
+  top: 44px;
+}
+#fingerprint {
+  position: absolute;
+  left: 124px;
+  top: 64px;
+  font-size: 12px;
+  opacity: 0.5;
+}
+.hidden {
+  display: none;
+}
+
+
+/* DRIVER LICENSE */
+
+#drivername {
+  text-align: left;
+  margin-top: 14px;
+}
+#drivercard {
+  color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  display: none;
+  margin: 140px 50px 0 0;
+  float: right;
+  width: 457px;
+  height: 272px;
+  padding: 60px 16px 10px 200px;
+  background: url(../images/driverlicense.png);
+  font-size: 8px;
+}
+
+#driverinline {
+  position: absolute;
+  top: 90px;
+}
+#driverdob {
+  position: absolute;
+  left: 0px;
+  width: 100px;
+  top: 20px;
+  width: 250px;
+}
+#drivertypemotor {
+  position: absolute;
+  left: 0px;
+  top: 45px;
+  width: 250px;
+}
+#drivertypecar {
+  position: absolute;
+  left: 0px;
+  top: 70px;
+  width: 250px;
+}
+#drivertypetruck {
+  position: absolute;
+  left: 0px;
+  top: 95px;
+  width: 250px;
+}
+
+#driverfingerprint {
+  position: absolute;
+  left: 124px;
+  top: 64px;
+  font-size: 12px;
+  opacity: 0.5;
+}
+.hidden {
+  display: none;
+}
