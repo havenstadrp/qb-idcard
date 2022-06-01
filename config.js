@@ -1,35 +1,35 @@
 QB = []; 
 
 QB.Idcardlang = {
-   header: "Los Santos",
-   langlast: "Last Name", 
-   langfirst: "First Name", 
-   langdob: "Dob", 
-   langsex: "Sex",
-   langnat: "Nationality" 
+   header: "Havenstad",
+   langlast: "Achternaam", 
+   langfirst: "Voornaam", 
+   langdob: "Geboortedatum", 
+   langsex: "Geslacht",
+   langnat: "Nationaliteit" 
 };
 
 QB.Idcard = {
-   header: "Identity",
+   header: "Identiteit",
    background: "#ebf7fd"
 };
 
 QB.Driverlicense = {
-   header: "Driver License",
+   header: "Rijbewijs",
    background: "#febbbb"
 };
 
 QB.Weaponlicense = {
-   header: "Weapon License",
+   header: "Wapenvergunning",
    background: "#c7ffe5"
 };
 
 QB.Lawyerpass = {
-   header: "Lawyer Pass",
+   header: "Advocatenpas",
    background: "#f9c491"
 };
 
 QB.Policeidcard = {
-   header: "Police Department",
+   header: "Havenstad Politie",
    background: "#73b2ff"
 };
